@@ -5,7 +5,7 @@ Crie um banco de dados e execute as instruções SQLs abaixo para criar a tabela
   CREATE TABLE `carta` (
   	 `id`        INT(11)                   AUTO_INCREMENT,
   	 `titulo`    VARCHAR(255)              NULL      COLLATE'utf8_general_ci',
-  	 `descricao` TEXT(sem especificação)   NULL      COLLATE'utf8_general_ci',
+  	 `detalhes` TEXT(sem especificação)   NULL      COLLATE'utf8_general_ci',
      `ativo`     ENUM('S','N')             NULL      COLLATE'utf8_general_ci',
   	 `data`      TIMESTAMP                 NULL ,
   	   +PRIMARY KEY (`id`) 
